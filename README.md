@@ -17,7 +17,7 @@ o projeto  esta responsivo a telas menores e contem alguns conceitos basicos de 
 <p align="left">Segue uma pequena demonstração do projeto em funcionamento</p>
 
   <div align="left">
-  <img src="https://github.com/Lucas8901/DESAFIO-2---CODELANDIA/blob/main/gif/bandicam%202022-08-24%2017-36-41-252.gif"/>
+  <img src="https://github.com/Lucas8901/Desafio-04-Codelandia/blob/main/gif/bandicam%202022-08-25%2017-46-58-099.gif"/>
   </div>
 
 
@@ -31,6 +31,5 @@ o projeto  esta responsivo a telas menores e contem alguns conceitos basicos de 
 <div align="left">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </div>
 <br>
