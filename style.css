@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:ital,wght@0,300;0,900;1,300&family=Montserrat:wght@100;300;400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+.principal{
+  width: 100%;
+  height: 930px;
+  display: flex;
+  gap:130px;
+}
+
+.login-1{
+  background: #F7FAFC;
+  width: 680px;
+  height:100%;
+  padding-top: 130px;
+}
+
+.login-1 img{
+  width: 400px;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+
+.login-2{
+ background:#fff;
+ max-width: 320px;
+ height:100%;
+ padding-top: 120px;
+}
+
+.login-2 p {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 7px;
+}
+
+
+.login-2 h2{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  color: #1A202C;
+  margin-bottom: 40px;
+}
+
+.login-2 .email input{
+  margin-bottom: 20px;
+  margin-top: 11px;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  padding: 10px;
+  width: 347px;
+}
+
+.login-2 label{
+  display: block;
+  font-family:'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+ 
+}
+.radio{
+  display: flex;
+  align-items: center;
+}
+
+.radio label{
+  display: inline;
+  margin-left: 5px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.radio a{
+  font-family: 'Lato';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 17px;
+ text-decoration: none;
+ color: #2B6CB0;
+ margin-left: 100px;
+ 
+}
+
+.btn button{
+  background: #04C45C;
+  border-radius: 5px; 
+  margin-top: 30px;
+  width: 347px;
+  font-family:'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height:19px;
+  height: 50px;
+  color: #FFFFFF;
+  border: none;
+
+}
+.btn button:hover{
+  background: #029748;
+}
+.google-btn{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #1A202C;
+  border-radius: 5px; 
+  margin-top: 30px;
+  width: 347px;
+  font-family:'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height:19px;
+  height: 50px;
+  color: #FFFFFF;
+  border: none;
+}
+.google-btn img{
+  display: block;
+  height: auto;
+  width:20px;
+}
+
+.google-btn p{
+  margin-left: 10px;
+  padding-top: 8px;
+}
+
+.google-btn:hover{
+ background-color: #020202;
+}
+.footer{
+  text-align: center;
+  padding-top: 80px;
+}
+.footer p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1A202C;
+}
+
+.footer a{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color:#2B6CB0;
+  text-decoration: none;
+  margin-left: 8px;
+}
+@media (max-width:1440px){
+  .principal{
+    gap:120px;
+  }
+
+  .principal{
+    max-width:1440px;
+    height: 930px;
+    display: flex;
+    gap:10px;
+  }
+  
+  .login-1{
+    background: #F7FAFC;
+    width: 680px;
+    height:100%;
+    padding-top: 130px;
+  }
+  
+  .login-1 img{
+    width: 400px;
+    padding-top: 60px;
+    margin: 0 auto;
+  }
+  
+  .login-2{
+   background:#fff;
+   max-width: 620px;
+   height:100%;
+   padding-top: 120px;
+   margin: 0 auto;
+  }
+}
+
+@media (max-width:1024px){
+ 
+  .principal{
+    max-width:100%;
+    height: 930px;
+    display: flex;
+    gap:10px;
+  }
+  
+  .login-1{
+    background: #F7FAFC;
+    width: 480px;
+    height:100%;
+    padding-top: 130px;
+  }
+  
+  .login-1 img{
+    width: 300px;
+    padding-top: 60px;
+    margin: 0 auto;
+  }
+  
+  .login-2{
+   background:#fff;
+   max-width: 620px;
+   height:100%;
+   padding-top: 120px;
+   margin: 0 auto;
+  }
+}
+
+
+@media (max-width:768px){
+ 
+  .principal{
+    max-width:100%;
+    height: 930px;
+    display: flex;
+    gap:0px;
+  }
+  
+  .login-1{
+    background: #F7FAFC;
+    width: 330px;
+    height:100%;
+    padding-top: 130px;
+  }
+  
+  .login-1 img{
+    width: 260px;
+    padding-top: 60px;
+    margin: 0 auto;
+  }
+
+  
+.login-2 h2{
+  font-size: 22px;
+}
+
+.login-2 .email input{
+  margin-bottom: 20px;
+  margin-top: 11px;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  padding: 10px;
+  width: 267px;
+}
+
+
+.radio{
+  display: flex;
+  align-items: center;
+}
+
+
+.radio a{
+ font-family: 'Lato';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 17px;
+ text-decoration: none;
+ color: #2B6CB0;
+ margin-left: 20px;
+ 
+}
+
+.btn button{
+  background: #04C45C;
+  border-radius: 5px; 
+  margin-top: 30px;
+  width: 267px;
+  font-family:'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height:19px;
+  height: 50px;
+  color: #FFFFFF;
+  border: none;
+
+}
+.btn button:hover{
+  background: #029748;
+}
+.google-btn{
+  width: 267px;
+}
+
+.google-btn p{
+  margin-left: 10px;
+  padding-top: 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+ 
+}
+
+@media (max-width:632px){
+ 
+  .principal{
+    max-width:100%;
+    height: 930px;
+    display: flex;
+    gap:0px;
+  }
+  
+  .login-1{
+    display: none;
+  }
+  
+  
+.login-2 h2{
+  font-size: 2rem;
+}
+
+.login-2 .email input{
+  width: 367px;
+}
+
+
+.radio{
+  display: flex;
+  align-items: center;
+}
+
+
+.radio a{
+ font-family: 'Lato';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 17px;
+ text-decoration: none;
+ color: #2B6CB0;
+ margin-left: 120px;
+ 
+}
+
+.btn button{
+  background: #04C45C;
+  border-radius: 5px; 
+  margin-top: 30px;
+  width: 367px;
+  font-family:'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height:19px;
+  height: 50px;
+  color: #FFFFFF;
+  border: none;
+
+}
+.btn button:hover{
+  background: #029748;
+}
+.google-btn{
+  width: 367px;
+}
+
+.google-btn p{
+  margin-left: 10px;
+  padding-top: 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+ 
+}
+
+
+@media (max-width: 425px){
+ 
+  .principal{
+    max-width:100%;
+    height: 930px;
+    display: flex;
+    gap:0px;
+  }
+  
+  
+.login-2 h2{
+  font-size: 1.5rem;
+}
+
+.login-2 .email input{
+  width: 287px;
+}
+
+
+.radio{
+  display: flex;
+  align-items: center;
+}
+
+
+.radio a{
+ font-family: 'Lato';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 17px;
+ text-decoration: none;
+ color: #2B6CB0;
+ margin-left:50px;
+ 
+}
+
+.btn button{
+  width: 287px;
+}
+.btn button:hover{
+  background: #029748;
+}
+.google-btn{
+  width: 287px;
+}
+
+.google-btn p{
+  margin-left: 10px;
+  padding-top: 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+ 
+}
+@media (max-width:375px){
+ 
+  .principal{
+    max-width:100%;
+    height: 930px;
+    display: flex;
+    gap:0px;
+  }
+  
+  
+.login-2 h2{
+  font-size: 1.5rem;
+}
+
+.login-2 .email input{
+  width: 287px;
+}
+
+
+.radio{
+  display: flex;
+  align-items: center;
+}
+
+
+.radio a{
+ font-family: 'Lato';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 17px;
+ text-decoration: none;
+ color: #2B6CB0;
+ margin-left:50px;
+ 
+}
+
+.btn button{
+  width: 287px;
+}
+.btn button:hover{
+  background: #029748;
+}
+.google-btn{
+  width: 287px;
+}
+
+.google-btn p{
+  margin-left: 10px;
+  padding-top: 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+ 
+}
+
+
+
+@media (max-width:320px){
+ 
+.login-2 h2{
+  font-size: 1.2rem;
+}
+.login-2 p{
+  font-size: 0.9rem;
+}
+
+.login-2 .email input{
+  width: 250px;
+}
+
+.radio a{
+ font-family: 'Lato';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 17px;
+ text-decoration: none;
+ color: #2B6CB0;
+ margin-left:20px;
+ 
+}
+
+.btn button{
+  width: 250px;
+}
+.btn button:hover{
+  background: #029748;
+}
+.google-btn{
+  width: 250px;
+}
+
+.google-btn p{
+  margin-left: 10px;
+  padding-top: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.google-btn img{
+  width: 15px;
+}
+ 
+}
